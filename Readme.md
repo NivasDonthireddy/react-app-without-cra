@@ -3,21 +3,12 @@
 ### Steps to create a new react application from scratch.
 
 1. Initiate npm in an empty folder to create package.json file.
-2. Install the required npm packages
 ```
-react
-react-dom
-webpack
-webpack-cli
-webpack-dev-server
-@babel/core
-@babel/preset-env
-@babel/preset-react
-babel-loader
-css-loader
-style-loader
-file-loader
-html-webpack-plugin
+npm init --y
+```
+2. Install the required npm packages by running the below command
+```
+npm install react react-dom webpack webpack-cli webpack-dev-server @babel/core @babel/preset-env @babel/preset-react babel-loader css-loader style-loader file-loader html-webpack-plugin
 ```
 
 3. Create a new webpack.config.js file in the root-directory and paste the below contents
@@ -113,7 +104,7 @@ export default App;
 ```json
 "scripts": {
     "start": "webpack serve --mode development"
-},
+ },
 ```
 
 9. run the app using the below command
